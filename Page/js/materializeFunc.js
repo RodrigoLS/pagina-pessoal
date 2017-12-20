@@ -15,3 +15,8 @@ var options = [
     } },
   ];
   Materialize.scrollFire(options);
+
+ // Parallax
+ $(document).ready(function(){
+      $('.parallax').parallax();
+    });

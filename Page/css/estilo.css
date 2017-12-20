@@ -3,3 +3,13 @@ header#cabecalho {
 	margin-top: 100vh;
 	
 }
+
+.fraseDeApresentacao {
+
+	font-family: Cooper Std Black ,Stencil Std, serif;
+
+}
+
+.parallax-container {
+      height: 800px;
+    }
