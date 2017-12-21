@@ -4,12 +4,40 @@ header#cabecalho {
 	
 }
 
+.side-nav {
+	background-color: black;
+}
+
+
 .fraseDeApresentacao {
 
 	font-family: Cooper Std Black ,Stencil Std, serif;
 
 }
 
-.parallax-container {
-      height: 800px;
-    }
+.parallax {
+	background-image: url("../img/teclado.jpeg");
+
+	/* Set a specific height */
+    /* height: 500px; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+}
+
+.progress {
+	height: 15px;
+}
+
+.texto-parallax {
+	font-family: Arial Brack;
+	font-size: 20px;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
